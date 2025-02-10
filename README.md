@@ -15,7 +15,7 @@ This project demonstrates how to integrate a **Headless CMS** (e.g., Contentstac
 
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/yourusername/headlesscms-react-integration.git
+   git clone https://github.com/gregory-dushan/headlesscms-react-integration.git
    cd headlesscms-react-integration
    ```
 
@@ -39,9 +39,9 @@ This project demonstrates how to integrate a **Headless CMS** (e.g., Contentstac
 
 ### Development Mode  
 ```sh
-npm start
+npm run dev
 # or
-yarn start
+yarn dev
 ```
 The app will be available at `http://localhost:3000`.
 
@@ -61,8 +61,8 @@ This generates a static build in the `build/` directory.
  ┣ 📂 components/        # Reusable UI components
  ┣ 📂 hooks/             # Custom React hooks for fetching CMS data
  ┣ 📂 pages/             # Page components
- ┣ 📂 services/          # API service functions
- ┣ 📂 utils/             # Helper functions
+ ┣ 📂 libs/              # API service functions
+ ┣ 📂 types/             # Type definition
  ┣ 📜 App.js             # Main React component
  ┗ 📜 index.js           # React DOM entry point
 ```
